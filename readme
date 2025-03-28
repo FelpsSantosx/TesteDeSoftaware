@@ -1,29 +1,37 @@
-# 📌 Importância dos Testes Unitários e Comparativo com Outros Testes
+ 📌 Importância dos Testes Unitários e Comparativo com Outros Testes
 
-## 1️⃣ Importância dos Testes Unitários
+ 1️⃣ Importância dos Testes Unitários
 Os testes unitários são essenciais para garantir a qualidade do software desde as primeiras fases do desenvolvimento. Eles verificam pequenas partes do código, geralmente funções ou métodos individuais, assegurando que cada componente funcione conforme esperado.
 
-### **Principais Benefícios dos Testes Unitários:**
-✔ **Detecção precoce de erros:** Identifica bugs logo no início do desenvolvimento, reduzindo custos de correção.
-✔ **Facilitam refatoração:** Mudanças no código podem ser feitas com mais segurança, pois os testes garantem que as funcionalidades não foram comprometidas.
-✔ **Documentação viva:** Servem como referência sobre o comportamento esperado das funções/métodos.
-✔ **Melhor qualidade do código:** Estimulam o desenvolvimento de código modular, desacoplado e mais fácil de manter.
+ Principais Benefícios dos Testes Unitários:
+✔ Detecção precoce de erros: Identifica bugs logo no início do desenvolvimento, reduzindo custos de correção.
+✔ Facilitam refatoração: Mudanças no código podem ser feitas com mais segurança, pois os testes garantem que as funcionalidades não foram comprometidas.
+✔ Documentação viva: Servem como referência sobre o comportamento esperado das funções/métodos.
+✔ Melhor qualidade do código: Estimulam o desenvolvimento de código modular, desacoplado e mais fácil de manter.
 
----
 
-## 2️⃣ Comparativo: Testes Unitários, Testes de Integração e Testes Funcionais
+ 2️⃣ Comparativo: Testes Unitários, Testes de Integração e Testes Funcionais
 
-| Tipo de Teste        | O que Testa? | Foco | Quando Usar? |
-|--------------------|------------|------|-------------|
-| **Testes Unitários** | Funções/métodos individuais | Verificar se cada unidade do código funciona isoladamente | Sempre que uma nova função ou método for implementado ou modificado |
-| **Testes de Integração** | Comunicação entre módulos/componentes | Certificar que diferentes partes do sistema funcionam corretamente juntas | Após a implementação de novos módulos que interagem entre si |
-| **Testes Funcionais** | Funcionalidade completa do software | Garantir que o sistema atende aos requisitos especificados | Antes de liberar uma nova versão para o usuário |
+ Testes Unitários:
+- Testam funções ou métodos individuais.
+- Foco em verificar se cada unidade do código funciona isoladamente.
+- Devem ser utilizados sempre que uma nova função ou método for implementado ou modificado.
 
-### **Exemplo prático:**
+ Testes de Integração:
+- Testam a comunicação entre módulos ou componentes.
+- Certificam que diferentes partes do sistema funcionam corretamente juntas.
+- Devem ser usados após a implementação de novos módulos que interagem entre si.
+
+ Testes Funcionais:
+- Avaliam a funcionalidade completa do software.
+- Garantem que o sistema atende aos requisitos especificados.
+- Devem ser realizados antes de liberar uma nova versão para o usuário.
+
+ Exemplo prático:
 Imagine um sistema de e-commerce:
-- **Testes Unitários** verificam se o cálculo de descontos funciona corretamente.
-- **Testes de Integração** verificam se o cálculo de descontos se comunica corretamente com o sistema de pagamento.
-- **Testes Funcionais** verificam se um usuário consegue concluir a compra corretamente.
+- Testes Unitários verificam se o cálculo de descontos funciona corretamente.
+- Testes de Integração verificam se o cálculo de descontos se comunica corretamente com o sistema de pagamento.
+- Testes Funcionais verificam se um usuário consegue concluir a compra corretamente.
 
-Cada tipo de teste é essencial para garantir um software robusto e confiável. 🚀
+
 
